@@ -1,0 +1,16 @@
+.container{
+  margin: auto 15px;
+  overflow: hidden;
+  zoom: 1;
+  @media screen and(min-width: 650px){
+    margin: auto 5%;
+  }
+  // / width: 100%;
+}
+.copyright{
+  color: #C6CCCC;
+  font-size: .7rem;
+  @media screen and(min-width: 650px){
+
+  }
+}

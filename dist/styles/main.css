@@ -1,0 +1,152 @@
+body {
+  font-family: Helvetica;
+  background-image: url("../assets/images/background.jpg");
+  margin: 10px auto;
+  padding: 10px; }
+  @media screen and (min-width: 650px) {
+    body {
+      padding: 20px; } }
+  @media screen and (min-width: 1024px) {
+    body {
+      width: 1024px; } }
+
+a {
+  text-decoration: none; }
+
+main {
+  overflow: hidden;
+  zoom: 1; }
+
+.container {
+  margin: auto 15px;
+  overflow: hidden;
+  zoom: 1; }
+  @media screen and (min-width: 650px) {
+    .container {
+      margin: auto 5%; } }
+
+.copyright {
+  color: #C6CCCC;
+  font-size: .7rem; }
+
+header {
+  color: white;
+  overflow: hidden;
+  zoom: 1; }
+  header input[type="text"] {
+    float: right;
+    width: 15%;
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 4px; }
+  header .smallSearch {
+    display: inline-block; }
+    @media screen and (min-width: 650px) {
+      header .smallSearch {
+        display: none;
+        line-height: .1; } }
+  header h1 {
+    font-weight: 600;
+    margin: 0 auto;
+    font-size: 1.9rem;
+    font-weight: 600; }
+    @media screen and (min-width: 650px) {
+      header h1 {
+        margin: 0px auto 10px auto; } }
+  header h3 {
+    font-size: 1rem;
+    font-family: TimesNewRoman;
+    font-style: italic;
+    font-weight: 400;
+    margin: 5px auto 0 auto; }
+  header ul {
+    background: linear-gradient(to right, #6a6a6a, #b9b9b9);
+    padding: 8px 0;
+    border-radius: 8px;
+    width: 100%;
+    margin: 15px auto 0 auto; }
+    @media screen and (min-width: 650px) {
+      header ul {
+        margin: 20px auto 10px auto; } }
+  header ul li {
+    font-size: .8rem;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: .5rem;
+    font-weight: 600; }
+    @media screen and (min-width: 650px) {
+      header ul li {
+        font-size: 1rem;
+        font-weight: 400;
+        padding-top: 5px;
+        padding-right: 2rem; } }
+  header .navSearch {
+    display: none; }
+    @media screen and (min-width: 650px) {
+      header .navSearch {
+        display: inline-block;
+        float: right; }
+        header .navSearch input {
+          width: 100%;
+          margin-top: 0; } }
+
+@media screen and (min-width: 650px) {
+  .post {
+    width: 68%;
+    margin-right: 2%;
+    float: left; } }
+
+@media screen and (min-width: 650px) {
+  .sidebar, .photos {
+    width: 30%;
+    display: inline-block; } }
+
+@media screen and (min-width: 650px) {
+  .photos {
+    margin-top: 0; } }
+
+article {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px auto 20px auto; }
+  article:last-of-type {
+    margin-bottom: 10px; }
+  article h1 {
+    padding-top: 10px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 10px auto; }
+  article h4 {
+    font-weight: 400;
+    font-size: .8rem;
+    margin: 10px auto;
+    color: #666; }
+  article img {
+    width: 100%; }
+  article p {
+    line-height: 1.5;
+    font-size: .8rem;
+    color: #666;
+    padding-bottom: 30px; }
+  article h3 {
+    padding: 12px 0 8px 0;
+    margin: 0 auto;
+    font-size: 1rem; }
+  article ul {
+    list-style-type: none;
+    padding: 0 0 10px 0;
+    margin: 0 auto; }
+    article ul li {
+      border-top: 1px solid #eee;
+      padding: 8px 0;
+      font-size: .8rem; }
+  article .thumbnails {
+    margin-left: -1%;
+    padding-bottom: 15px; }
+    article .thumbnails img {
+      width: 15%;
+      margin: 2%; }
+      @media screen and (min-width: 650px) {
+        article .thumbnails img {
+          width: 25%; } }
