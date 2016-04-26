@@ -23,7 +23,7 @@ main {
   zoom: 1; }
   @media screen and (min-width: 650px) {
     .container {
-      margin: auto 5%; } }
+      margin: auto 30px; } }
 
 .copyright {
   color: #C6CCCC;
@@ -59,12 +59,15 @@ header {
     font-style: italic;
     font-weight: 400;
     margin: 5px auto 0 auto; }
+  header nav {
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75); }
   header ul {
     background: linear-gradient(to right, #6a6a6a, #b9b9b9);
     padding: 8px 0;
     border-radius: 8px;
     width: 100%;
-    margin: 15px auto 0 auto; }
+    margin: 15px auto 0 auto;
+    box-shadow: inset 1px 1px 2px 0px rgba(210, 210, 210, 0.75); }
     @media screen and (min-width: 650px) {
       header ul {
         margin: 20px auto 10px auto; } }
@@ -80,6 +83,8 @@ header {
         font-weight: 400;
         padding-top: 5px;
         padding-right: 2rem; } }
+    header ul li a {
+      color: white; }
   header .navSearch {
     display: none; }
     @media screen and (min-width: 650px) {
@@ -109,7 +114,11 @@ article {
   background-color: white;
   width: 100%;
   border-radius: 10px;
-  margin: 15px auto 20px auto; }
+  margin: 15px auto 20px auto;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5); }
+  @media screen and (min-width: 650px) {
+    article {
+      padding: 10px auto; } }
   article:last-of-type {
     margin-bottom: 10px; }
   article h1 {
@@ -133,6 +142,9 @@ article {
     padding: 12px 0 8px 0;
     margin: 0 auto;
     font-size: 1rem; }
+    @media screen and (min-width: 650px) {
+      article h3 {
+        margin: 10px auto 0 auto; } }
   article ul {
     list-style-type: none;
     padding: 0 0 10px 0;
